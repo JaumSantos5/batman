@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.contato {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+
+    }    
+
+.contato2 {
+
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    color: red;
+}
+
+.contato3 {
+    width: 35%;
+}
+
+#mensagem {
+    width: 100%;
+}
+
+
+#p1 {
+    font-size: 25px;
+    color:white ;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    display: flex;
+    align-items: center;
+    border: none;
+    text-shadow: none;
+    
+}
+
+#p2 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    display: flex;
+    margin-bottom: 45px;
+    border: none;
+    text-shadow: none;
+}
+
+#ctt {
+    border:5px solid red;
+    font-size: 30px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: none;
+
+}
+
+#telefone {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+#loc {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#relogio {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#rodapé {
+    width: 100%;
+    height: 60px;
+}
+
+#form { 
+    color: #fff;    
+}
+
+
+label {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+#email{
+    color: #000;
+}
+
+#text {
+    color: black;
+}
+
+input {
+    color: white;
+    width: 400px;
+    height: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    display: flex;
+}
+
+#botao {
+    width: 50%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    margin-top: 25px;
+    transition: .8s;
+}
+
+#botao:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .contato{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contato2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato3{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botao{
+        width: 50%;
+        display: flex;
+    
+    }
+
+    #ctt{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        }
+    }
+
+    input{
+        width: 90%;
+    }
